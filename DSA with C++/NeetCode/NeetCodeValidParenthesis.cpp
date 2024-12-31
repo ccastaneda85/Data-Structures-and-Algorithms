@@ -46,6 +46,10 @@ bool validParenth(string s) {
 
         }
     }
+
+    if(!stack.empty()) {
+        return false;
+    }
    
    return balance;
 }
